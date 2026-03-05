@@ -75,8 +75,8 @@ scripts/run_eval.sh --eval-file evals/evals.json --report-dir evals/reports
 2. 用 CLI 验证技能可发现：
 
 ```bash
-npx skills add <owner>/<repo> --list
-npx skills add <owner>/<repo> --skill java-docs
+npx skills add yeluod/java-doc --list
+npx skills add yeluod/java-doc --skill java-docs
 ```
 
 3. 在 [skills.sh](https://skills.sh/) 搜索仓库或技能名确认展示。
