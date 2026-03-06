@@ -77,6 +77,11 @@ scripts/run_eval.sh --eval-file evals/evals.json --report-dir evals/reports
 ```bash
 npx skills add yeluod/java-doc --list
 npx skills add yeluod/java-doc --skill java-docs
+npx skills add https://github.com/yeluod/java-doc --skill java-docs
+
+npx skills add yeluod/java-doc --skill java-docs -a codex -g
+
+npx skills add yeluod/java-doc --list
 ```
 
 3. 在 [skills.sh](https://skills.sh/) 搜索仓库或技能名确认展示。
